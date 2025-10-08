@@ -14,5 +14,6 @@ Content:
 <li>Files 09. to 14. reproduces figures and tables</li>
 </ul>
 System requirements:
-
-All analyses were performed with R version 4.4.1 (2024-06-14 ucrt)
+<ul>
+<li>All analyses were performed with R version 4.4.1 (2024-06-14 ucrt)</li>
+</ul>
