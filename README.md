@@ -13,6 +13,7 @@ Content:
 <li>Files 03. to 08. performs the epidemiological analysis and computes attributable mortality</li>
 <li>Files 09. to 14. reproduces figures and tables</li>
 <ul>
+
 System requirements:
 
 All analyses were performed with R version 4.4.1 (2024-06-14 ucrt)
