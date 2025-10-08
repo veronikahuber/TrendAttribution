@@ -10,7 +10,7 @@ Contact: veronika.huber@ebd.csic.es
 <ul>
 <li>Files 01a. and 01b. construct the counterfactual temperatures series</li> 
 <li>File 02. loads the full data bases</li>
-<li>Files 03. to 08. perform the epidemiological analysis and computes attributable mortality</li>
+<li>Files 03. to 08. perform the epidemiological analysis and compute attributable mortality</li>
 <li>Files 09. to 14. reproduce figures and tables</li>
 </ul>
 <b>System requirements:</b> All analyses were performed with R version 4.4.1 (2024-06-14 ucrt)
