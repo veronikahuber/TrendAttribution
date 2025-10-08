@@ -1,8 +1,8 @@
 This repository contains all relevant scripts to reproduce the analysis of the study 
 
-<strong>Huber, V., et al.: Life expectancy gains mask rising trends in heat-related excess mortality attributable to climate change</strong>
+<strong>Huber, V., et al.: Life expectancy gains mask rising trends in heat-related excess mortality attributable to climate change
 
-Nature Communications, doi: [to be added]
+<em>Nature Communications</em>, doi: [to be added]</strong>
 
 Contact: veronika.huber@ebd.csic.es
 
@@ -13,7 +13,4 @@ Contact: veronika.huber@ebd.csic.es
 <li>Files 03. to 08. performs the epidemiological analysis and computes attributable mortality</li>
 <li>Files 09. to 14. reproduces figures and tables</li>
 </ul>
-<b>System requirements:</b>
-<ul>
-<li>All analyses were performed with R version 4.4.1 (2024-06-14 ucrt)</li>
-</ul>
+<b>System requirements:</b> All analyses were performed with R version 4.4.1 (2024-06-14 ucrt)
