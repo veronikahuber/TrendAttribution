@@ -8,4 +8,4 @@ Contact: veronika.huber@ebd.csic.es
 
 System requirements:
 
-R analysis was performed with R version 4.4.1 (2024-06-14 ucrt)
+All analyses were performed with R version 4.4.1 (2024-06-14 ucrt)
