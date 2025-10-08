@@ -4,7 +4,7 @@ Huber, V., et al.: Life expectancy gains mask rising trends in heat-related exce
 
 Nature Communications, doi: [to be added]
 
-Contact: Veronika Huber
+Contact: veronika.huber@ebd.csic.es
 
 System requirements:
 
