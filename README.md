@@ -13,4 +13,4 @@ Contact: veronika.huber@ebd.csic.es
 <li>Files 03. to 08. perform the epidemiological analysis and compute attributable mortality</li>
 <li>Files 09. to 14. reproduce figures and tables</li>
 </ul>
-<b>System requirements:</b> All analyses were performed with R version 4.4.1 (2024-06-14 ucrt)
+<b>System requirements:</b> All analyses were performed with R version 4.4.1, using the packages dlnm and mixmeta.
