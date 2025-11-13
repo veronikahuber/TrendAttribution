@@ -1,15 +1,17 @@
 #################################################################################
 # R code for the analysis in 
 
-# Huber, V., et al. Life expectancy gains mask rising trends in heat-related
-# excess mortality attributable to climate change. 
-# Nature Communications, [to be added] (2025), doi: [to be added]
+# Huber, V., et al. Improvements in life expectancy mask rising trends 
+# in heat-related excess mortality attributable to climate change. 
+# Nature Communications, doi: [to be added]
 
 #################################################################################
 
 ##################################################################################
 # COMPUTE COUNTERFACTUAL DAILY MEAN TEMPERATURES 
 # BASED ON DETRENDING AGAINST SSA SMOOTHED GLOBAL MEAN SURFACE TEMPERATURES
+
+# PLOT SUPPLEMENTARY FIGS. 12 AND 13
 ###################################################################################
 
 ####################################
@@ -36,7 +38,7 @@ nby <- length(gmsty$Year)
 
 # PLOT ANNUAL GMST (RAW, SSA SMOOTHED)
 
-pdf("FigS10.pdf",width=8,height=7)
+pdf("FigS12.pdf",width=8,height=7)
 
 plot(1850:2024,gmsty[gmsty$Year<=2024,1],xlab="Year",
      ylab="GMST anomaly (°C)", type="n",ylim=c(min(gmsty[,2]),max(gmsty[,3])))
@@ -130,8 +132,24 @@ cf <- array(NA,dim=c(length(date$date),3,3),
 collight <- c("lightblue","grey","pink")
 col <- c("blue","black","red")
 
+# PANEL LABELS
+panellabel <- c(expression(bold("a")),                                    
+                           expression(bold("b")),
+                                      expression(bold("c")),
+                                                 expression(bold("d")),
+                                                            expression(bold("e")),
+                                                                       expression(bold("f")),
+                                                                                  expression(bold("g")),
+                expression(bold("h")),
+                           expression(bold("i")),
+                                      expression(bold("j")),
+                                                 expression(bold("k")),
+                                                            expression(bold("l")),
+                                                                       expression(bold("m")),
+                                                                                  expression(bold("n")),
+                                                                                             expression(bold("o")))
 # INITIATE PLOT
-pdf("FigS11.pdf",width=9,height=7)
+pdf("FigS13.pdf",width=9,height=7)
 layout(matrix(1:15,ncol=5,byrow=T))
 par(mar=c(4,3.8,3,1),mgp=c(2.5,1,0),las=1)
 
@@ -195,7 +213,10 @@ for (i in seq(cities)){
     
   }
 
-  if (i==1) {legend("topleft",c("Best estimate","2.5% CI","97.5% CI"),pch=19,col=collight,cex=0.8,bty="n")}
+  if (i==1) {legend("top",c("Best estimate","2.5% CI","97.5% CI"),pch=19,col=collight,cex=0.8,bty="n")}
+
+  # PLOT PANEL LABEL
+  text(min(gmstysub[,2])+0.02,20.9,labels=panellabel[i])
   
   # RE-SHAPE ARRAY TO DATAFRAME AND SAVE FACTUAL AND COUNTERFACTUAL TEMPERATURE DATA
   
@@ -212,7 +233,3 @@ for (i in seq(cities)){
 dev.off()
 
 #############
-
-
-
- 
