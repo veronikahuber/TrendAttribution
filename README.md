@@ -2,7 +2,7 @@ This repository contains all relevant scripts to reproduce the analysis of the s
 
 <strong>Huber, V., et al.: Improvements in life expectancy mask rising trends in heat-related excess mortality attributable to climate change</strong>
 
-accepted for publication in <em>Nature Communications</em>, doi: [to be added]
+<em>Nature Communications</em>, 16, 11632 (2025) https://doi.org/10.1038/s41467-025-66681-0
 
 Contact: veronika.huber@ebd.csic.es
 
