@@ -1,11 +1,10 @@
-#################################################################################
+#####################################################################################
 # R code for the analysis in 
 
-# Huber, V., et al. Life expectancy gains mask rising trends in heat-related
-# excess mortality attributable to climate change. 
-# Nature Communications, [to be added] (2025), doi: [to be added]
-
-#################################################################################
+# Huber, V., Breitner-Busch, S., Feldbusch, H. et al. Improvements in life expectancy 
+# mask rising trends in heat-related excess mortality attributable to climate change. 
+# Nat Commun 16, 11632 (2025). https://doi.org/10.1038/s41467-025-66681-0
+######################################################################################
 
 #####################################################################
 # PLOT ATTRIBUTABLE NUMBERS AND DEATH RATES (PER 100 00O POPULATION)
@@ -141,5 +140,6 @@ for (i in (c(1,2))){
 }
 
 dev.off()
+
 
 #######
